@@ -77,6 +77,9 @@ We've made it even easier to access **SoulAstro**! The website is hosted on Verc
 
 🔗 **[SoulAstro Live](https://level-super-mind-hack-xpxa.vercel.app/)**
 
+### Youtube Video Link
+🔗 **[Video Link](https://youtu.be/bzsynNptpf4)**
+
 ## 🤝 Contributing
 
 We welcome contributions! Please fork the repository and create a pull request with your feature or bug fix.
