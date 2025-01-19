@@ -15,9 +15,9 @@
 ### 🔄 Data Flow and User Interaction
 
 1. **Input**:
-   - **Date of Birth** (mandatory)
-   - **Time of Birth** (optional, for detailed astrology)
-   - **Location of Birth** (optional, for Kundali generation)
+   - **Date of Birth** 
+   - **Time of Birth**
+   - **Location of Birth**
 
 2. **Process**:
    - **Astro API Integration**: Fetches astrological data and generates predictions.
@@ -48,7 +48,7 @@
 
 ### Prerequisites
 
-- Basic understanding of astrology (optional, our platform guides you through everything).
+- Basic understanding of astrology (our platform guides you through everything).
 - A device with internet access.
 
 ### Installation
@@ -83,10 +83,6 @@ We've made it even easier to access **SoulAstro**! The website is hosted on Verc
 ## 🤝 Contributing
 
 We welcome contributions! Please fork the repository and create a pull request with your feature or bug fix.
-
-## 📜 License
-
-This project is licensed under the MIT License.
 
 ---
 
