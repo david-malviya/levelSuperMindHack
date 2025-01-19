@@ -33,7 +33,7 @@ function Zodiac() {
   
     try {
       // Fetch zodiac sign based on user data
-      const response = await axios.post("http://localhost:3000/api/zodiacSign", {
+      const response = await axios.post("https://levelsupermindhack-1.onrender.com/api/zodiacSign", {
         year,
         month,
         date: day,
@@ -48,7 +48,7 @@ function Zodiac() {
         localStorage.setItem("Zodiac", response.data); // Save zodiac in localStorage
   
         // Fetch additional zodiac data based on the sign
-        const res = await axios.post("http://localhost:3000/api/zodiacData", {
+        const res = await axios.post("https://levelsupermindhack-1.onrender.com/api/zodiacData", {
           zodiac: response.data, // Send zodiac sign to get more details (ensure the API expects this)
         });
   
