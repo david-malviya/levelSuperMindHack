@@ -17,7 +17,7 @@ const handlesubmit = async(e)=>{
 e.preventDefault()
 if(isLogin){
   try {
-    const response = await axios.post('http://localhost:3000/api/user/login',{email,password})
+    const response = await axios.post('https://levelsupermindhack-1.onrender.com/api/user/login',{email,password})
   if(response){
     localStorage.setItem('token',response.data.token)
 navigate('/')
@@ -28,7 +28,7 @@ navigate('/')
   
 }else{
   try {
-    const response = await Axis3DIcon.post('http://localhost:3000/api/user/register',{name,email,password})
+    const response = await Axis3DIcon.post('https://levelsupermindhack-1.onrender.com/api/user/register',{name,email,password})
     if(response){
       localStorage.setItem('token',response.data.token)
   navigate('/')
