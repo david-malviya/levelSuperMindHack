@@ -28,7 +28,7 @@ navigate('/')
   
 }else{
   try {
-    const response = await Axis3DIcon.post('https://levelsupermindhack-1.onrender.com/api/user/register',{name,email,password})
+    const response = await axios.post('https://levelsupermindhack-1.onrender.com/api/user/register',{name,email,password})
     if(response){
       localStorage.setItem('token',response.data.token)
   navigate('/')
