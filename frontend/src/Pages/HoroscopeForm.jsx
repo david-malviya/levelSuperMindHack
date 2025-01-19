@@ -32,7 +32,7 @@ function DailyHoroscope() {
     const [hours, minutes] = time.split(":").map(Number);
 
     try {
-      const response = await axios.post("http://localhost:3000/api/RasiInsight", {
+      const response = await axios.post("https://levelsupermindhack-1.onrender.com/api/RasiInsight", {
         year,
         month,
         date: day,
@@ -42,7 +42,7 @@ function DailyHoroscope() {
       });
       if (response?.data) {
         setResponse(response.data.output);
-        const response2 = await axios.post("http://localhost:3000/api/rasiRoute", {
+        const response2 = await axios.post("https://levelsupermindhack-1.onrender.com/api/rasiRoute", {
         year,
         month,
         date: day,
