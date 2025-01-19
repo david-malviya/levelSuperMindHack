@@ -1,0 +1,68 @@
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(42, 42, 106, 0.3);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #9333ea, #db2777);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #7e22ce, #be185d);
+}
+
+.custom-markdown-table {
+  @apply text-sm leading-relaxed;
+}
+
+.custom-markdown-table h1,
+.custom-markdown-table h2,
+.custom-markdown-table h3,
+.custom-markdown-table h4,
+.custom-markdown-table h5,
+.custom-markdown-table h6 {
+  @apply text-yellow-300 font-semibold mb-2;
+}
+
+.custom-markdown-table p {
+  @apply mb-4;
+}
+
+.custom-markdown-table ul,
+.custom-markdown-table ol {
+  @apply mb-4 pl-4;
+}
+
+.custom-markdown-table li {
+  @apply mb-1;
+}
+
+.custom-markdown-table code {
+  @apply bg-purple-900/30 px-1.5 py-0.5 rounded text-purple-300;
+}
+
+.custom-markdown-table pre {
+  @apply bg-purple-900/30 p-4 rounded-lg mb-4 overflow-x-auto;
+}
+
+.custom-markdown-table table {
+  @apply w-full mb-4 border-collapse;
+}
+
+.custom-markdown-table th,
+.custom-markdown-table td {
+  @apply border border-purple-500/20 px-4 py-2;
+}
+
+.custom-markdown-table th {
+  @apply bg-purple-900/30 text-yellow-300;
+}
+
+.custom-markdown-table tr:nth-child(even) {
+  @apply bg-purple-900/10;
+}
